@@ -28,7 +28,7 @@
     <skipITs>false</skipITs>
     <derby.lib>${project.build.directory}/lib/derby</derby.lib>
     <derby.version>10.10.2.0</derby.version>
-    <openjpa.version>2.2.0</openjpa.version>
+    <openjpa.version>2.2.2</openjpa.version>
     
     <!-- Name of the database service that will be created if it does not exist or bound if it does -->
     <!-- This is used for both local and BlueMix deployments -->
