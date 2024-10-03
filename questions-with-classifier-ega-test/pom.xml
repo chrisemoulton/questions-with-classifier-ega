@@ -27,8 +27,8 @@
   <properties>
     <skipITs>false</skipITs>
     <derby.lib>${project.build.directory}/lib/derby</derby.lib>
-    <derby.version>10.10.2.0</derby.version>
-    <openjpa.version>2.2.0</openjpa.version>
+    <derby.version>10.17.1.0</derby.version>
+    <openjpa.version>2.2.2</openjpa.version>
     
     <!-- Name of the database service that will be created if it does not exist or bound if it does -->
     <!-- This is used for both local and BlueMix deployments -->
@@ -801,7 +801,7 @@
       <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
-        <version>2.4</version>
+        <version>2.14.0</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -826,7 +826,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -858,7 +858,7 @@
     <dependency>
       <groupId>org.apache.derby</groupId>
       <artifactId>derby</artifactId>
-      <version>10.10.2.0</version>
+      <version>10.17.1.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
